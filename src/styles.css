@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.App {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f7f9;
+  color: #091540;
+}
+/** button -container **/
+.list-container {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.05rem solid #091540;
+  border-radius: 0.5rem;
+}
+.list-item {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.list-item:nth-child(odd) {
+  background-color: #091540;
+  color: #f8f7f9;
+}
+.list-item:nth-child(even) {
+  background-color: #f8f7f9;
+  color: #091540;
+}
+.button-item {
+  padding: 00.2rem 1rem;
+  background-color: #091540;
+  color: #f8f7f9;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

@@ -1,2 +1,2 @@
-# Famous-Food
+# Animalname-Interpreter
 Created with CodeSandbox
